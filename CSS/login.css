@@ -1,0 +1,28 @@
+body {
+   
+    background-color: #FFEEDB;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.login{
+
+    background: #fff;
+    width: 520px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+
+}
+
+.login h1{
+   text-align: center;
+}
+
+.login form{
+   text-align: center;
+    
+}
