@@ -13,7 +13,12 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 15px;
 }
-
+.avatar {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 10px;
+}
 .login h1 {
   padding: 35px 35px 0 35px;
   font-size: 1cm;
@@ -68,15 +73,13 @@ body {
   border-radius: 20px 20px;
   background: linear-gradient(to bottom, #17137f, #064d79);
 }
-button {
-  width: 80%;
+.register {
   position: absolute;
   top: 90%;
-  right: 42.5px;
-  height: 30px;
+  right: 60px;
+  height: 20px;
   border: none;
-  border-radius: 20px 20px;
-  background: linear-gradient(to bottom, #17137f, #064d79);
+  border-radius: 50px 20px;
 }
 
 /*#button {
