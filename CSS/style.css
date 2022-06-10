@@ -9,7 +9,7 @@ body{
     background-position: -400px 0px;
 }
 div.main{
-    width: 400px ;
+    width:400px ;
     margin: 100px auto 0px auto; 
 }
 h2{
@@ -19,17 +19,25 @@ h2{
 
 }
  div.register{
-     background-color: azure;
+    background: linear-gradient(to bottom, #2d5ed0, #1f836a);
      width: 100%;
+     height: 730px;
      font-size: 18;
-     border-radius: 10px;
-     border: 1px solid rgba(255,255,255,0.3);
+     border-radius: 20px;
+     border: 1px solid rgba(0, 0, 0, 0.3);
      box-shadow: 2px 2px 15px
-      rgba(0,0,0,0.3);
-      color: rgb(8, 8, 8);
+      rgba(1, 1, 1, 0.3);
+      color: rgb(0, 0, 0);
 
 
  }
+ .avatar {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    padding-left:140px;
+  }
  
  form#register{
      margin: 40px;
@@ -43,13 +51,24 @@ h2{
  }
  input#name{
      width: 300px;
-     border: 1px solid #ddd;
-     border-radius:3px;
+     border: 1px solid rgb(247, 245, 245);
+     border-radius:75px;
      outline: 0;
      padding: 7px ;
-     background-color: #fff;
+     background-color:  #e0ebeb;
      box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
 
      
 }
+input[type="submit"] {
+    width: 80%;
+    height: 30px;
+    left: 50%;
+    text-align: center;
+    border: none;
+    border-radius: 20px 20px;
+    background: linear-gradient(to bottom, #17137f, #064d79);
+    -ms-transform: translateY(-50%,-50%);
+    transform: translateY(-50%,-50%);
+  }
 
