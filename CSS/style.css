@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
      
 }
 body{
@@ -70,5 +71,7 @@ input[type="submit"] {
     background: linear-gradient(to bottom, #17137f, #064d79);
     -ms-transform: translateY(-50%,-50%);
     transform: translateY(-50%,-50%);
-  }
+    
+}
 
+  
